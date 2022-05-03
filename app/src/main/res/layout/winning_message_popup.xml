@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/dialog_constraint_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorOrange">
+
+    <ImageView
+        android:id="@+id/dialog_candy_right_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/halloween_candy" />
+
+    <ImageView
+        android:id="@+id/dialog_candy_left_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/halloween_candy" />
+
+    <ImageView
+        android:id="@+id/dialog_candy_right_bot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dialog_candy_right_top"
+        app:srcCompat="@drawable/halloween_candy" />
+
+    <ImageView
+        android:id="@+id/dialog_candy_left_bot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dialog_candy_left_top"
+        app:srcCompat="@drawable/halloween_candy" />
+
+    <TextView
+        android:id="@+id/dialog_congrats_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dialog_candy_right_top"
+        android:layout_toStartOf="@+id/dialog_candy_right_top"
+        android:layout_toEndOf="@+id/dialog_candy_left_top"
+        android:text="@string/dialog_congrats_title"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/dialog_candy_right_top"
+        app:layout_constraintStart_toEndOf="@+id/dialog_candy_left_top"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/dialog_msg_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dialog_congrats_title"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="90dp"
+        android:text="@string/dialog_msg_text"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dialog_congrats_title" />
+
+    <ImageView
+        android:id="@+id/dialog_ghost_right_top"
+        android:layout_width="54dp"
+        android:layout_height="95dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintBottom_toTopOf="@+id/dialog_candy_right_bot"
+        app:layout_constraintEnd_toStartOf="@+id/dialog_candy_right_bot"
+        app:srcCompat="@drawable/ghost" />
+
+    <ImageView
+        android:id="@+id/dialog_ghost_left_top"
+        android:layout_width="54dp"
+        android:layout_height="95dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintBottom_toTopOf="@+id/dialog_candy_left_bot"
+        app:layout_constraintStart_toEndOf="@+id/dialog_candy_left_bot"
+        app:srcCompat="@drawable/ghost" />
+
+    <ImageView
+        android:id="@+id/dialog_ghost_right_bot"
+        android:layout_width="54dp"
+        android:layout_height="95dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toStartOf="@+id/dialog_candy_right_bot"
+        app:layout_constraintTop_toBottomOf="@+id/dialog_candy_right_top"
+        app:srcCompat="@drawable/ghost" />
+
+    <ImageView
+        android:id="@+id/dialog_ghost_left_bot"
+        android:layout_width="54dp"
+        android:layout_height="95dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toEndOf="@+id/dialog_candy_left_bot"
+        app:layout_constraintTop_toBottomOf="@+id/dialog_candy_left_top"
+        app:srcCompat="@drawable/ghost" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

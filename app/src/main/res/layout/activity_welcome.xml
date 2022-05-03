@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/welcome_constraint_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/welcome_background"
+    android:foreground="@drawable/welcome_foreground"
+    tools:context=".WelcomeActivity">
+
+    <RelativeLayout
+        android:id="@+id/welcome_relative_layout"
+        android:layout_width="729dp"
+        android:layout_height="409dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/welcome_skip_button"
+            android:layout_width="153dp"
+            android:layout_height="125dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="153dp"
+            android:layout_marginBottom="48dp"
+            android:background="@drawable/purple_candy"
+            android:gravity="center"
+            android:text="@string/welcome_skip_button"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/game_title"
+            android:layout_width="374dp"
+            android:layout_height="66dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="83dp"
+            android:layout_marginEnd="169dp"
+            android:text="@string/app_name"
+            android:textColor="#000000"
+            android:textSize="60sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/welcome_author_title"
+            android:layout_width="77dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/game_title"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="337dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginEnd="315dp"
+            android:text="@string/welcome_authors_text"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/welcome_author_siu"
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/welcome_author_title"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="319dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="295dp"
+            android:text="@string/author_siu"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/welcome_author_su"
+            android:layout_width="57dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/welcome_author_siu"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="349dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="323dp"
+            android:text="@string/author_su"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            />
+
+        <ImageView
+            android:id="@+id/welcome_candy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/welcome_author_su"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="151dp"
+            android:layout_marginTop="-25dp"
+            android:layout_marginEnd="-58dp"
+            android:layout_marginBottom="68dp"
+            android:layout_toStartOf="@+id/game_title"
+            app:srcCompat="@drawable/halloween_candy" />
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

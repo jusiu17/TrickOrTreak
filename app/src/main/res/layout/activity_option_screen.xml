@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/option_constraint_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/halloween"
+
+    tools:context=".OptionActivity">
+    <!--android:background="@drawable/background_main"-->
+    <RelativeLayout
+        android:id="@+id/option_relative_layout"
+        android:layout_width="729dp"
+        android:layout_height="409dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/game_title"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="245dp"
+            android:layout_marginTop="63dp"
+            android:layout_marginEnd="254dp"
+            android:text="@string/app_name"
+            android:textColor="#ffffff"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/option_setting_text"
+            android:layout_width="68dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/game_title"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="335dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="326dp"
+            android:text="Settings"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/option_board_title"
+            android:layout_width="204dp"
+            android:layout_height="36dp"
+            android:layout_below="@+id/option_setting_text"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="93dp"
+            android:layout_marginTop="19dp"
+            android:text="@string/option_select_board_text"
+            android:textColor="#ffffff"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/option_candy_title"
+            android:layout_width="314dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/option_setting_text"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="39dp"
+            android:layout_marginTop="21dp"
+            android:layout_marginEnd="79dp"
+            android:layout_toEndOf="@+id/option_board_title"
+            android:text="@string/option_select_candy_text"
+            android:textColor="#ffffff"
+            android:textSize="24sp" />
+
+        <RadioGroup
+            android:id="@+id/option_candy_radio_group"
+            android:layout_width="314dp"
+            android:layout_height="241dp"
+            android:layout_below="@+id/option_candy_title"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="11dp"
+            android:layout_marginEnd="58dp"
+            android:layout_marginBottom="16dp"
+            android:textColor="#ffffff" />
+
+        <RadioGroup
+            android:id="@+id/option_board_radio_group"
+            android:layout_width="334dp"
+            android:layout_height="215dp"
+            android:layout_below="@+id/option_board_title"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="105dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="21dp"
+            android:textColor="#ffffff" />
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="num_candies">
+        <item>6</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+    </integer-array>
+
+    <integer-array name="boards_array">
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </integer-array>
+
+    <integer name="default_num_candies">6</integer>
+
+    <integer name="default_board_size">4</integer>
+
+</resources>

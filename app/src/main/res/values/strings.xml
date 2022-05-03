@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">Trick or Treat</string>
+    <string name="author_siu">Wing Chun Siu</string>
+    <string name="author_su">Lina Su</string>
+
+            <!-- Welcome page -->
+    <string name="welcome_skip_button">Skip</string>
+    <string name="welcome_authors_text">Authors:</string>
+
+            <!-- Menu page -->
+    <string name="menu_option_button">Option</string>
+    <string name="menu_help_button">Help</string>
+    <string name="menu_start_button">Start</string>
+
+            <!-- Game Board page -->
+    <string name="board_found_text"> # of candies found:</string>
+    <string name="board_scan_text"># of scans used : </string>
+    <string name="board_candy_text">Total # of candies:</string>
+    <string name="board_zero_text">0</string>
+
+
+            <!-- Option page -->
+    <string name="option_select_board_title">Board Size:</string>
+    <string name="option_select_candy_title">Number of Candies:</string>
+    <string name="option_select_board_text">Select Board Size:</string>
+    <string name="option_select_candy_text">Select Number of Candies:</string>
+
+            <!-- Help page -->
+    <string name="help_how_to_play_title">How to Play</string>
+    <string name="help_authors_title">About the Authors</string>
+    <string name="help_citations_title">\nCitations\n</string>
+    <string name="help_about_author_text">
+        Trick or Treat is a game built by Wing Chun Siu and Lina Su.
+        The creators of this game are students from Simon Fraser University enrolled in a computer course named cmpt 276 (Link above).
+        Wing Chun Siu is a 22 year-old student who is pursuing a computer science degree to fulfill his dream job as a software developer.
+        Lina Su is a 21 year-old student who is pursuing a bachelor\'s degree in computer science.
+    </string>
+    <string name="help_course_link">
+        <a href="https://opencoursehub.cs.sfu.ca/bfraser/grav-cms/cmpt276/home">CMPT 276 course website</a>
+    </string>
+    <string name="help_rules">
+        The purpose of the game is to find all the candies hidden behind the doors of the game board.
+        The game begins with a specific number of hidden candies randomly distributed across the game board.
+        The player is supposed to tap on the doors of the game board to find the hidden candies.
+        An image of a candy will show if the player selects a door that contains a hidden candy.
+        If the player selects a door that doesn\'t contain a candy, then the door will reveal a number.
+        This number represents the total number of candies that can be found within that column and row.
+        This number will decrease as the player finds more candies along that particular row or column.
+        If the number is 0, it suggests that there are no candies within that row and column.
+        Once all the hidden candies are found, the player wins the game.
+    </string>
+    <string name="help_citations_content_1">
+        \t\t\t\t\tAndroid Coding (2019). How to Vibrate Mobile On Button Click in Android Studio | MobileVibration | Android Coding. [video] Available at: https://www.youtube.com/watch?v=yDIbV-1cov4 [Accessed 22 Feb. 2020].\n\n\n
+        \t\t\t\t\tAnon, (2020). [online] ZapSplat. Available at: https://www.zapsplat.com [Accessed 22 Feb. 2020].\n\n\n
+        \t\t\t\t\tCoderScion Media (2017). How to create rotate/spin animation in android | Android tutorial for beginners. [video] Available at: https://www.youtube.com/watch?v=goVoYf2qie0 [Accessed 21 Feb. 2020].\n\n\n
+        \t\t\t\t\tCoding in Flow (2017). How to Change the App Icon in Android Studio (With Adaptive Icons). [image] Available at: https://www.youtube.com/watch?v=ts98gL1JCQU [Accessed 21 Feb. 2020].\n\n\n
+        \t\t\t\t\tCoding in Flow (2017). How to Save an ArrayList of Custom Objects to SharedPreferences with Gson - Android Studio Tutorial. [video] Available at: https://www.youtube.com/watch?v=jcliHGR3CHo [Accessed 22 Feb. 2020].\n\n\n
+        \t\t\t\t\tEasy Tuto (2016). Fullscreen Activity | Android Studio Tutorial (Beginners) HD | All About Android. [video] Available at: https://www.youtube.com/watch?v=tlIqaVJIYBM [Accessed 21 Feb. 2020].\n\n\n
+        \t\t\t\t\tFlaticon (n.d.). Door free icon. [image] Available at: https://www.flaticon.com/free-icon/door_1864744 [Accessed 21 Feb. 2020].\n\n\n
+        \t\t\t\t\tFlaticon (n.d.). Ghost free icon. [image] Available at: https://www.flaticon.com/free-icon/ghost_477155 [Accessed 21 Feb. 2020].\n\n\n
+    </string>
+    <string name="help_citations_content_2">
+        \t\t\t\t\tFlaticon (2020). [image] Available at: https://www.flaticon.com/free-icon/candy_1888859 [Accessed 21 Feb. 2020].\n\n\n
+        \t\t\t\t\tfreepik (2018). Halloween pumpkin head with red eyes black background Free Photo. [image] Available at: https://www.freepik.com/free-photo/halloween-pumpkin-head-with-red-eyes-black-background_1348262.htm [Accessed 22 Feb. 2020].\n\n\n
+        \t\t\t\t\tfreepik (n.d.). [image] Available at: https://www.freepik.com/free-vector/cute-small-bags-halloween-candies_5335408.htm#page=4&amp;query=halloween+candies+halloween+candy&amp;position=18 [Accessed 21 Feb. 2020].\n\n\n
+        \t\t\t\t\tGrunge halloween background with haunted house. (n.d.). [image] Available at: https://www.everypixel.com/image-5242640113195841282 [Accessed 21 Feb. 2020].\n\n\n
+        \t\t\t\t\tIcons (n.d.). Halloween candy icons in iOS, Material, Windows, and other design styles. [image] Available at: https://icons8.com/icons/set/halloween-candy\-\-v1 [Accessed 21 Feb. 2020].\n\n\n
+        \t\t\t\t\tInside Android (2018). Threads in Android | Perform a task after some seconds | Handler in Android Studio. [image] Available at: https://www.youtube.com/watch?v=PGMrMZLNhUk [Accessed 22 Feb. 2020].\n\n\n
+        \t\t\t\t\tiStock (2018). Halloween Design1 stock illustration. [image] Available at: https://www.istockphoto.com/ca/vector/halloween-design1-gm1012951252-272809889 [Accessed 21 Feb. 2020].\n\n\n
+        \t\t\t\t\tJohn\'s Android Studio Tutorials (2015). How to play sound with button click Android Studio. [video] Available at: https://www.youtube.com/watch?v=9oj4f8721LM [Accessed 22 Feb. 2020].\n\n\n
+        \t\t\t\t\tMacaroni Kid (2019). Trick-or-Treat events in Crawford County on October 31. [image] Available at: https://meadville.macaronikid.com/articles/5db1c7b2bc65e606b1507fd3/trick-or-treat-events-in-crawford-county-on-october-31 [Accessed 21 Feb. 2020].\n\n\n
+        \t\t\t\t\tPervaiz, A. (2017). Android Studio Tutorial - Using Links with TextView. [video] Available at: https://www.youtube.com/watch?v=t3UAxjAKyjk [Accessed 21 Feb. 2020].\n\n\n
+        \t\t\t\t\tPinClipart (n.d.). [image] Available at: https://www.pinclipart.com/downpngs/iioRTmi_bat-clipart-cute-halloween-bats-transparent-png-download/ [Accessed 22 Feb. 2020].\n\n\n
+        \t\t\t\t\tPNGGuru (n.d.). HALLOWEEN HANNAK, black ghost art transparent background PNG clipart. [image] Available at: https://www.pngguru.com/free-transparent-background-png-clipart-lzgbi/download [Accessed 22 Feb. 2020].\n\n\n
+        \t\t\t\t\tPNGGuru (n.d.). HALLOWEEN HANNAK, black ghost illustration transparent background PNG clipart. [image] Available at: https://www.pngguru.com/free-transparent-background-png-clipart-lzgbz/download [Accessed 22 Feb. 2020].\n\n\n
+        \t\t\t\t\tPNGGuru (n.d.). Ice cream Candy Cartoon, Cartoon candy transparent background. [image] Available at: https://www.pngguru.com/free-transparent-background-png-clipart-bornh [Accessed 21 Feb. 2020].\n\n\n
+        \t\t\t\t\tPhys Whiz (2016). ADDING LINKS INSIDE A TEXTVIEW - (Android Development). [video] Available at: https://www.youtube.com/watch?v=aQIqQ2-lyO8 [Accessed 22 Feb. 2020].\n\n\n
+        \t\t\t\t\tRanjoni, A. (2018). Android Studio Animation: Fade, Slide, Blink, Bounce, and Move. [video] Available at: https://www.youtube.com/watch?v=D24UQG364PA [Accessed 21 Feb. 2020].\n\n\n
+        \t\t\t\t\tStack Overflow. (n.d.). How to get height and width of Button. [online] Available at: https://stackoverflow.com/questions/7750102/how-to-get-height-and-width-of-button?fbclid=IwAR2C2Q_tCpAQhDzj0Rx8HxuN8iGKtPl8A3g7ZmQmWncr_Q5-xR3Uj29VF1k [Accessed 22 Feb. 2020].\n\n\n\n\n\n\n\n\n
+    </string>
+
+            <!-- Dialog page -->
+    <string name="dialog_congrats_title">Congratulation!!!</string>
+    <string name="dialog_msg_text">You found all the candies!!!</string>
+    <string name="dialog_newGame_button">New Game</string>
+    <string name="dialog_back_button">back</string>
+
+</resources>

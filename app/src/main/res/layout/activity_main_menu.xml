@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/menu_constraint_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/halloween"
+    tools:context=".MainMenuActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/menu_relative_layout"
+        android:layout_width="729dp"
+        android:layout_height="409dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/game_title"
+            android:layout_width="228dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="254dp"
+            android:layout_marginTop="66dp"
+            android:layout_marginEnd="247dp"
+            android:text="@string/app_name"
+            android:textColor="#ffffff"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/menu_start_button"
+            android:layout_width="151dp"
+            android:layout_height="96dp"
+            android:layout_below="@+id/game_title"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="302dp"
+            android:layout_marginTop="-5dp"
+            android:layout_marginEnd="276dp"
+            android:background="@drawable/purple_candy"
+            android:text="@string/menu_start_button"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/menu_option_button"
+            android:layout_width="146dp"
+            android:layout_height="98dp"
+            android:layout_below="@+id/menu_help_button"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="303dp"
+            android:layout_marginTop="-30dp"
+            android:layout_marginEnd="280dp"
+            android:background="@drawable/purple_candy"
+            android:text="@string/menu_option_button"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/menu_help_button"
+            android:layout_width="147dp"
+            android:layout_height="94dp"
+            android:layout_below="@+id/menu_start_button"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="304dp"
+            android:layout_marginTop="-30dp"
+            android:layout_marginEnd="278dp"
+            android:background="@drawable/purple_candy"
+            android:text="@string/menu_help_button"
+            android:textColor="#ffffff" />
+
+        <ImageView
+            android:id="@+id/menu_black_ghost"
+            android:layout_width="304dp"
+            android:layout_height="197dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="95dp"
+            android:layout_marginBottom="117dp"
+            app:srcCompat="@drawable/black_ghost" />
+
+        <ImageView
+            android:id="@+id/menu_small_black_ghost"
+            android:layout_width="251dp"
+            android:layout_height="246dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="78dp"
+            android:layout_marginEnd="400dp"
+            android:layout_marginBottom="-25dp"
+            app:srcCompat="@drawable/small_black_ghost" />
+
+        <ImageView
+            android:id="@+id/menu_bats"
+            android:layout_width="223dp"
+            android:layout_height="153dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="103dp"
+            android:layout_marginEnd="66dp"
+            android:layout_marginBottom="153dp"
+            app:srcCompat="@drawable/black_bats" />
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
